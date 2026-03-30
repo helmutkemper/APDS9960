@@ -1,5 +1,22 @@
 # APDS9960
 
+## Pin out
+
+```
+ +------------------------+
+ |        TOP VIEW        |
+ |                    (◎) | INT
+ |  +-------+----+    (◎) | SDA
+ |  | ∩     |  ∩ |    (◎) | SCL
+ |  | ∪     |  ∪ |    (◎) | GND
+ |  +-------+----+    (◎) | Out 3.3V
+ |                    (◎) | VIn 3.3V-5V
+ |    COMPONENTS SIDE     |
+ +------------------------+
+```
+
+## Description
+
 This handy sensor is full of features! Add basic gesture sensing, RGB color sensing, proximity sensing, or ambient
 light sensing to your project with the Adafruit APDS9960 Proximity, Light, RGB and Gesture Sensor. When connected to
 your microcontroller (running our library code) it can detect simple gestures (left to right, right to left, up to down,
