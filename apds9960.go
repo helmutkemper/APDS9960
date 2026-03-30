@@ -13,7 +13,7 @@ import (
 
 // APDS9960 reads colour (RGBC) data via I2C.
 //
-// icon:lightbulb
+// icon:sun
 type APDS9960 struct {
 	i2c   *machine.I2C
 	gain  byte `prop:"ADC Gain"         default:"0"   options:"0,1,2,3"`
