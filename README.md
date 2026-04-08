@@ -4,6 +4,10 @@
 
 ![](apds9960.svg)
 
+# Wiring
+
+![](apds9960-arduino-wiring.svg)
+
 ## Pinout
 
 | Pin | Description                                                                                                                                                                                                                                                                         |

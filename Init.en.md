@@ -19,6 +19,10 @@ This block initializes the I2C connection on the APDS9960 board and is required 
 | SDA | this is the I2C data pin, connect to your microcontrollers I2C data line. There is a 10K pullup on this pin and it is level shifted so you can use 3 - 5VDC.                                                                                                                        |
 | INT | this is the interrupt-output pin. It is 3V logic and you can use it to detect when a new reading is ready or when a reading gets too high or too low.                                                                                                                               |
 
+# Wiring
+
+![](apds9960-arduino-wiring.svg)
+
 ## Example
 
 Click on the image below to load the example.

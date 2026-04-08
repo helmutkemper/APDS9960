@@ -9,3 +9,7 @@ blueRatio  = blue  / clear
 ```
 
 A ratio near 1.0 on a single channel means that colour dominates the scene.
+
+# Wiring
+
+![](apds9960-arduino-wiring.svg)
