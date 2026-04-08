@@ -1,0 +1,106 @@
+<svg viewBox="0 0 260 340" xmlns="http://www.w3.org/2000/svg">
+<defs><style>
+  text { font-family: monospace; }
+</style></defs>
+
+<!-- PCB body — red board -->
+<rect x="30" y="20" width="200" height="300" rx="4" fill="#cc1a1a" stroke="#991010" stroke-width="1.5"/>
+
+<!-- Mounting holes (top corners) -->
+<circle cx="62" cy="56" r="16" fill="#1a0a0a" stroke="#991010" stroke-width="1"/>
+<circle cx="62" cy="56" r="11" fill="#303030"/>
+<circle cx="198" cy="56" r="16" fill="#1a0a0a" stroke="#991010" stroke-width="1"/>
+<circle cx="198" cy="56" r="11" fill="#303030"/>
+
+<!-- ===== Sensor element (top centre) ===== -->
+<rect x="110" y="42" width="32" height="38" rx="2" fill="#1a1a1a" stroke="#333" stroke-width="0.8"/>
+<circle cx="126" cy="55" r="5" fill="#3a2a1a" stroke="#555" stroke-width="0.5"/>
+<rect x="118" y="68" width="6" height="5" rx="1" fill="#2a2a2a"/>
+
+<!-- ===== SMD components (stylised) ===== -->
+<rect x="90"  y="95" width="10" height="5" rx="1" fill="#c8b888" stroke="#998" stroke-width="0.4"/>
+<rect x="108" y="95" width="10" height="5" rx="1" fill="#c8b888" stroke="#998" stroke-width="0.4"/>
+<rect x="138" y="95" width="10" height="5" rx="1" fill="#c8b888" stroke="#998" stroke-width="0.4"/>
+<rect x="156" y="95" width="10" height="5" rx="1" fill="#c8b888" stroke="#998" stroke-width="0.4"/>
+
+<!-- I2C pull-up resistors (right side) -->
+<rect x="185" y="110" width="12" height="6" rx="1" fill="#c8b888" stroke="#998" stroke-width="0.4"/>
+<rect x="185" y="126" width="12" height="6" rx="1" fill="#c8b888" stroke="#998" stroke-width="0.4"/>
+
+<!-- Small SMD near top -->
+<rect x="148" y="50" width="8" height="4" rx="0.8" fill="#c8b888" stroke="#998" stroke-width="0.4"/>
+
+<!-- ===== Main IC ===== -->
+<rect x="75" y="155" width="90" height="70" rx="3" fill="#2a2a2a" stroke="#444" stroke-width="0.8"/>
+<text x="120" y="193" text-anchor="middle" font-size="11" fill="#bbb">E2</text>
+<circle cx="120" cy="213" r="5" fill="none" stroke="#888" stroke-width="0.6"/>
+<text x="120" y="216" text-anchor="middle" font-size="8" fill="#888">2</text>
+
+<!-- ===== PCB silkscreen labels ===== -->
+<text x="50" y="108" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="bold">PS</text>
+<text x="208" y="155" font-size="9" fill="rgba(255,255,255,0.5)" font-weight="bold"
+      transform="rotate(90,208,155)">I2C PU</text>
+
+<!-- ===== PCB traces (stylised) ===== -->
+<line x1="126" y1="80" x2="126" y2="95" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+<line x1="95"  y1="100" x2="95"  y2="155" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+<line x1="145" y1="100" x2="145" y2="155" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+
+<!-- ===== Bottom connector pads — evenly spaced ===== -->
+<!-- Board x: 30–230, usable: 50–210, 6 pads, gap=32px -->
+<!-- Centres: 50, 82, 114, 146, 178, 210 -->
+
+<!-- VL -->
+<g>
+  <circle cx="50"  cy="296" r="9" fill="#1e1e1e" stroke="#444" stroke-width="0.8"/>
+  <circle cx="50"  cy="296" r="5" fill="#c8b888"/>
+  <text x="50"  y="275" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">VL</text>
+</g>
+
+<!-- GND -->
+<g>
+  <circle cx="82"  cy="296" r="9" fill="#1e1e1e" stroke="#444" stroke-width="0.8"/>
+  <circle cx="82"  cy="296" r="5" fill="#c8b888"/>
+  <text x="82"  y="275" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">GND</text>
+</g>
+
+<!-- VCC -->
+<g>
+  <circle cx="114" cy="296" r="9" fill="#1e1e1e" stroke="#444" stroke-width="0.8"/>
+  <circle cx="114" cy="296" r="5" fill="#c8b888"/>
+  <text x="114" y="275" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">VCC</text>
+</g>
+
+<!-- SDA -->
+<g>
+  <circle cx="146" cy="296" r="9" fill="#1e1e1e" stroke="#444" stroke-width="0.8"/>
+  <circle cx="146" cy="296" r="5" fill="#c8b888"/>
+  <text x="146" y="275" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">SDA</text>
+</g>
+
+<!-- SCL -->
+<g>
+  <circle cx="178" cy="296" r="9" fill="#1e1e1e" stroke="#444" stroke-width="0.8"/>
+  <circle cx="178" cy="296" r="5" fill="#c8b888"/>
+  <text x="178" y="275" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">SCL</text>
+</g>
+
+<!-- INT -->
+<g>
+  <circle cx="210" cy="296" r="9" fill="#1e1e1e" stroke="#444" stroke-width="0.8"/>
+  <circle cx="210" cy="296" r="5" fill="#c8b888"/>
+  <text x="210" y="275" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">INT</text>
+</g>
+
+<!-- Traces from pads upward -->
+<line x1="50"  y1="287" x2="50"  y2="240" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+<line x1="82"  y1="287" x2="82"  y2="240" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+<line x1="114" y1="287" x2="114" y2="225" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+<line x1="146" y1="287" x2="146" y2="240" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+<line x1="178" y1="287" x2="178" y2="240" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+<line x1="210" y1="287" x2="210" y2="240" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+
+<!-- SparkFun-style icon placeholder -->
+<text x="42" y="145" font-size="14" fill="rgba(255,255,255,0.3)">⚡</text>
+
+</svg>
