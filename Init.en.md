@@ -4,6 +4,8 @@
 
 This block initializes the I2C connection on the APDS9960 board and is required for I2C setup.
 
+![](apds9960.svg)
+
 <!-- place_the_control_panel_here -->
 
 ## Pinout
