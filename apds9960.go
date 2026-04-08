@@ -22,7 +22,7 @@ type APDS9960 struct {
 
 // Init configures the sensor on the given I2C bus.
 //
-// executionOrder:1. icon:group-arrows-rotate. label:Init I2C.
+// executionOrder:1. icon:group-arrows-rotate. label:I2C Init.
 //
 // Params
 //
