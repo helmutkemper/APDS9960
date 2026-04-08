@@ -45,3 +45,11 @@ For your convenience we've pick-and-placed the sensor on a PCB with a 3.3V regul
 be easily used with your favorite 3.3V or 5V microcontroller.
 
 A ratio near 1.0 on a single channel means that colour dominates the scene.
+
+## Example
+
+Click on the image below to load the example.
+
+![example image](/examples/example.png)
+
+> This is an image with steganography; it hides binary project data. Do not edit it.
