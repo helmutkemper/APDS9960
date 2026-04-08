@@ -1,5 +1,7 @@
 # APDS9960
 
+This APDS9960 sensor is a basic gesture sensing, RGB color sensing, proximity sensing, or ambient light sensing.
+
 ## Board
 
 ![](apds9960.svg)

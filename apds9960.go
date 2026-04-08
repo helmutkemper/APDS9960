@@ -22,7 +22,7 @@ type APDS9960 struct {
 
 // Init configures the sensor on the given I2C bus.
 //
-// icon:hourglass-start.
+// executionOrder:1. icon:group-arrows-rotate. label:Init I2C.
 //
 // Params
 //
@@ -74,4 +74,3 @@ func (s *APDS9960) Log(clear, red, green, blue uint16) {
 	println("C:", clear, "R:", red, "G:", green, "B:", blue)
 	time.Sleep(500 * time.Millisecond)
 }
-

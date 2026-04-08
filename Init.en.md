@@ -1,12 +1,14 @@
 # Configuration
 
-## Board APDS9960
+## Wiring
 
 This block initializes the I2C connection on the APDS9960 board and is required for I2C setup.
 
-![](apds9960.svg)
+![](apds9960-arduino-wiring.svg)
 
 <!-- place_the_control_panel_here -->
+
+> A ratio near 1.0 on a single channel means that colour dominates the scene.
 
 ## Pinout
 
@@ -18,10 +20,6 @@ This block initializes the I2C connection on the APDS9960 board and is required 
 | SCL | this is the I2C clock pin, connect to your microcontrollers I2C clock line. There is a 10K pullup on this pin and it is level shifted so you can use 3 - 5VDC.                                                                                                                      |
 | SDA | this is the I2C data pin, connect to your microcontrollers I2C data line. There is a 10K pullup on this pin and it is level shifted so you can use 3 - 5VDC.                                                                                                                        |
 | INT | this is the interrupt-output pin. It is 3V logic and you can use it to detect when a new reading is ready or when a reading gets too high or too low.                                                                                                                               |
-
-# Wiring
-
-![](apds9960-arduino-wiring.svg)
 
 ## Example
 
