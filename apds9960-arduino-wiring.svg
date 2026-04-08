@@ -80,23 +80,23 @@
 <circle cx="375" cy="80" r="3.2" fill="#111" stroke="#555" stroke-width="0.4"/>
 <circle cx="390" cy="80" r="3.2" fill="#111" stroke="#555" stroke-width="0.4"/>
 
-<!-- Digital pin labels (inside board, below header) -->
-<text x="155" y="103" text-anchor="middle" font-size="5.5" fill="rgba(255,255,255,0.4)" transform="rotate(-90,155,103)">SCL</text>
-<text x="170" y="103" text-anchor="middle" font-size="5.5" fill="rgba(255,255,255,0.4)" transform="rotate(-90,170,103)">SDA</text>
-<text x="185" y="103" text-anchor="middle" font-size="5.5" fill="rgba(255,255,255,0.4)" transform="rotate(-90,185,103)">AREF</text>
-<text x="200" y="103" text-anchor="middle" font-size="5.5" fill="rgba(255,255,255,0.4)" transform="rotate(-90,200,103)">GND</text>
-<text x="215" y="100" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)">13</text>
-<text x="230" y="100" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)">12</text>
-<text x="245" y="100" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)">11</text>
-<text x="260" y="100" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)">10</text>
-<text x="285" y="100" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)">7</text>
-<text x="300" y="100" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)">6</text>
-<text x="315" y="100" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)">5</text>
-<text x="330" y="100" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)">4</text>
-<text x="345" y="100" text-anchor="middle" font-size="9" fill="#eab308" font-weight="bold">3</text>
-<text x="360" y="100" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)">2</text>
-<text x="375" y="100" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)">TX</text>
-<text x="390" y="100" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)">RX</text>
+<!-- Digital pin labels (inside board, below header, sensor-style font) -->
+<text x="155" y="108" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(-90,155,108)">SCL</text>
+<text x="170" y="108" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(-90,170,108)">SDA</text>
+<text x="185" y="108" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(-90,185,108)">AREF</text>
+<text x="200" y="108" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(-90,200,108)">GND</text>
+<text x="215" y="104" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">13</text>
+<text x="230" y="104" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">12</text>
+<text x="245" y="104" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">11</text>
+<text x="260" y="104" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">10</text>
+<text x="285" y="104" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">7</text>
+<text x="300" y="104" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="315" y="104" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="330" y="104" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">4</text>
+<text x="345" y="104" text-anchor="middle" font-size="9" fill="#eab308" font-weight="bold">3</text>
+<text x="360" y="104" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">2</text>
+<text x="375" y="104" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">TX</text>
+<text x="390" y="104" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">RX</text>
 
 <text x="280" y="56" text-anchor="middle" font-size="5.5" fill="rgba(255,255,255,0.3)">DIGITAL (PWM~)</text>
 
@@ -111,14 +111,14 @@
 <circle cx="175" cy="340" r="3.2" fill="#111" stroke="#555" stroke-width="0.4"/>
 <circle cx="190" cy="340" r="3.2" fill="#111" stroke="#555" stroke-width="0.4"/>
 
-<!-- Power pin labels (inside board, above header) -->
-<text x="100" y="322" text-anchor="middle" font-size="5" fill="rgba(255,255,255,0.4)" transform="rotate(90,100,322)">IOREF</text>
-<text x="115" y="322" text-anchor="middle" font-size="5" fill="rgba(255,255,255,0.4)" transform="rotate(90,115,322)">RESET</text>
-<text x="130" y="322" text-anchor="middle" font-size="9" fill="#dc2626" font-weight="bold" transform="rotate(90,130,322)">3V3</text>
-<text x="145" y="322" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)" transform="rotate(90,145,322)">5V</text>
-<text x="160" y="322" text-anchor="middle" font-size="9" fill="#666" font-weight="bold" transform="rotate(90,160,322)">GND</text>
-<text x="175" y="322" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)" transform="rotate(90,175,322)">GND</text>
-<text x="190" y="322" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)" transform="rotate(90,190,322)">VIN</text>
+<!-- Power pin labels (inside board, above header, sensor-style font) -->
+<text x="100" y="315" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(90,100,315)">IOREF</text>
+<text x="115" y="315" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(90,115,315)">RESET</text>
+<text x="130" y="315" text-anchor="middle" font-size="9" fill="#dc2626" font-weight="bold" transform="rotate(90,130,315)">3V3</text>
+<text x="145" y="315" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(90,145,315)">5V</text>
+<text x="160" y="315" text-anchor="middle" font-size="9" fill="#666" font-weight="bold" transform="rotate(90,160,315)">GND</text>
+<text x="175" y="315" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(90,175,315)">GND</text>
+<text x="190" y="315" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(90,190,315)">VIN</text>
 <text x="140" y="376" text-anchor="middle" font-size="5.5" fill="rgba(255,255,255,0.3)">POWER</text>
 
 <!-- ===== ANALOG PINS (bottom-right) ===== -->
@@ -131,13 +131,13 @@
 <circle cx="302" cy="340" r="3.2" fill="#16a34a" stroke="#0f8a2e" stroke-width="0.6"/>
 <circle cx="317" cy="340" r="3.2" fill="#2563eb" stroke="#1a4fc0" stroke-width="0.6"/>
 
-<!-- Analog pin labels (inside board, above header) -->
-<text x="242" y="322" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)" transform="rotate(90,242,322)">A0</text>
-<text x="257" y="322" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)" transform="rotate(90,257,322)">A1</text>
-<text x="272" y="322" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)" transform="rotate(90,272,322)">A2</text>
-<text x="287" y="322" text-anchor="middle" font-size="6" fill="rgba(255,255,255,0.4)" transform="rotate(90,287,322)">A3</text>
-<text x="302" y="322" text-anchor="middle" font-size="9" fill="#16a34a" font-weight="bold" transform="rotate(90,302,322)">A4</text>
-<text x="317" y="322" text-anchor="middle" font-size="9" fill="#2563eb" font-weight="bold" transform="rotate(90,317,322)">A5</text>
+<!-- Analog pin labels (inside board, above header, sensor-style font) -->
+<text x="242" y="315" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(90,242,315)">A0</text>
+<text x="257" y="315" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(90,257,315)">A1</text>
+<text x="272" y="315" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(90,272,315)">A2</text>
+<text x="287" y="315" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold" transform="rotate(90,287,315)">A3</text>
+<text x="302" y="315" text-anchor="middle" font-size="9" fill="#16a34a" font-weight="bold" transform="rotate(90,302,315)">A4</text>
+<text x="317" y="315" text-anchor="middle" font-size="9" fill="#2563eb" font-weight="bold" transform="rotate(90,317,315)">A5</text>
 <text x="280" y="376" text-anchor="middle" font-size="5.5" fill="rgba(255,255,255,0.3)">ANALOG IN</text>
 
 <!-- ============================================================ -->
